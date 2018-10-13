@@ -2,19 +2,19 @@ pipeline{
     agent any
     stages{
         stage('Init'){
-                setps{
+                steps{
                     echo "Testing...."
                 }
         }
 
         stage('Build'){
-            setps{
+            steps{
                     echo "Building...."
                 }
         }
 
         stage('Deploy'){
-            setps{
+            steps{
                     echo "Code Deployed...."
                 }
         }
